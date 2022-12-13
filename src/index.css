@@ -1,7 +1,16 @@
 #posts-index img {
-  width: 300px;
+  width: 160px;
+  height: 160px;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+body {
+  font: 1rem/1.5 var(--bs-font-sans-serif);
+}
+
+#root {
+  background-image: url('./assets/5-dots.webp')
 }

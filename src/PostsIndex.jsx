@@ -6,7 +6,10 @@ export function PostsIndex(props) {
       {props.posts.map((post) => (
         <div key={post.id} className="posts">
           <h2>{post.title}</h2>
-          <img src={post.image_url} alt="" />
+          <img src={post.image} class="img-thumbnail" alt="" />
+          <button type="button" class="btn btn-outline-secondary" onClick={() => props.onSelectPost(post)}>
+            More!
+          </button>
         </div>
       ))}
     </div>
