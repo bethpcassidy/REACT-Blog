@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { PostsIndex } from "./PostsIndex";
 import { PostsNew } from "./PostsNew";
 import { Modal } from "./Modal";
+import { Signup } from "./Signup";
+import { Login } from "./Login";
 
 export function Home() {
   const [currentPost, setCurrentPost] = useState({});
@@ -33,6 +35,8 @@ export function Home() {
         <h2>{currentPost.title}</h2>
         <h4>{currentPost.body}</h4>
       </Modal>
+      <Login />
+      <Signup />
       <PostsNew />
       <PostsIndex posts={posts} onSelectPost={handleShowPost} />
     </div>

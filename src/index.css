@@ -1,5 +1,5 @@
 #posts-index img {
-  width: 160px;
+  width: 400px;
   height: 160px;
 }
 
@@ -12,5 +12,8 @@ body {
 }
 
 #root {
-  background-image: url('./assets/5-dots.webp')
+  background-color: #191919;
+  /* background-image: url('./assets/5-dots.webp'); */
+  color: grey;
 }
+
