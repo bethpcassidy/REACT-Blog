@@ -1,8 +1,0 @@
-// export function PostsShow(props) {
-//   return (
-//     <div id="posts-show">
-//       <h2>{props.post.title}</h2>
-//       <h4>Body {props.post.body}<h4>
-//     </div>
-//   )
-// }
