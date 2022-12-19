@@ -21,16 +21,16 @@ export function Signup() {
       <h1>Signup!</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          Name: <input name="name" type="name" />
+          Name: <input name="name" type="name" className="form-control" />
         </div>
         <div>
-          Email: <input name="email" type="email" />
+          Email: <input name="email" type="email" className="form-control" />
         </div>
         <div>
-          Password: <input name="password" type="password" />
+          Password: <input name="password" type="password" className="form-control" />
         </div>
         <div>
-          Password Confirmation: <input name="password" type="password" />
+          Password Confirmation: <input name="password" type="password" className="form-control" />
         </div>
         <button type="submit">Sign Up</button>
       </form>

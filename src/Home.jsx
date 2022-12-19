@@ -63,11 +63,13 @@ export function Home() {
     <div>
       <div className="container">
         <div className="row">
-          <Signup />
-        </div>
-        <div className="col-6">
-          <Login />
-          <LogoutLink />
+          <div class="col">
+            <Signup />
+          </div>
+          <div class="col">
+            <Login />
+            <LogoutLink />
+          </div>
         </div>
       </div>
       <Modal show={isPostsShowVisible} onClose={handleHidePost}>
