@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export function Header() {
   return (
     <div>
@@ -12,20 +14,22 @@ export function Header() {
         </button>
         <ul class="dropdown-menu">
           <li>
-            <a class="dropdown-item" href="#">
-              Home
-            </a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a class="dropdown-item" href="#posts-index">
-              All Posts
-            </a>
+            <Link to="/posts-index">Posts</Link>
           </li>
           <li>
-            <a class="dropdown-item" href="#posts-new">
-              {" "}
-              New Posts{" "}
-            </a>
+            <Link to="/posts-new">New Post</Link>
+          </li>
+          <li>
+            <Link to="/Login">Login</Link>
+          </li>
+          <li>
+            <Link to="/Signup">Signup</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
           </li>
         </ul>
       </div>

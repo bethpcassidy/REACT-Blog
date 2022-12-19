@@ -4,7 +4,6 @@ import App from "./App";
 import "./index.css";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Snow";
 import "./LogoutLink";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
