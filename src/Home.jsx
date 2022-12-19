@@ -61,7 +61,7 @@ export function Home() {
 
   return (
     <div>
-      <div className="container">
+      <div className="container-short">
         <div className="row">
           <div class="col">
             <Signup />

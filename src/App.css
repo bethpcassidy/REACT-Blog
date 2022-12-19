@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-
+.container-short {
+  width: 200px;
+}
 
 .logo {
   height: 6em;

@@ -18,13 +18,13 @@ export function PostsShow(props) {
       <h2>Edit Post</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          Title: <input defaultValue={props.post.title} name="title" type="text" />
+          Title: <input defaultValue={props.post.title} name="title" type="text" className="form-control" />
         </div>
         <div>
-          Body: <input defaultValue={props.post.body} name="body" type="text" />
+          Body: <input defaultValue={props.post.body} name="body" type="text" className="form-control" />
         </div>
         <div>
-          Image: <input defaultValue={props.post.image} name="image" type="text" />
+          Image: <input defaultValue={props.post.image} name="image" type="text" className="form-control" />
         </div>
         <button type="Submit">Update Post</button>
       </form>
